@@ -16,7 +16,7 @@ function ProductListing() {
       .catch((err) => {
         console.log("Error", err);
       });
-      console.log(response.data);
+      console.log(response.data,"response");
       dispatch(setProducts(response.data));
   };
 
